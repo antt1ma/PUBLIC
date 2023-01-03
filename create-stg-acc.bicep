@@ -7,7 +7,7 @@ param storageaccountlocation string
 param storageaccountName string = 'sa${uniqueString(resourceGroup().id)}'
 param storageaccountkind string
 param storgeaccountglobalRedundancy string = 'Premium_LRS'
-param fileshareFolderName string = 'files'
+param fileshareFolderName string
 
 // Create Storage account
 resource sa 'Microsoft.Storage/storageAccounts@2020-08-01-preview' = {
