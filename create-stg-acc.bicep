@@ -4,10 +4,10 @@ param owner string
 param costCenter string
 @description('Define Azure Files parmeters')
 param storageaccountlocation string
-param storageaccountName string = 'avdsa${uniqueString(resourceGroup().id)}'
+param storageaccountName string = 'sa${uniqueString(resourceGroup().id)}'
 param storageaccountkind string
 param storgeaccountglobalRedundancy string = 'Premium_LRS'
-param fileshareFolderName string = 'profilecontainers'
+param fileshareFolderName string = 'files'
 
 // Create Storage account
 resource sa 'Microsoft.Storage/storageAccounts@2020-08-01-preview' = {
