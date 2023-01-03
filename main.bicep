@@ -2,10 +2,10 @@ targetScope = 'subscription'
 
 @description('Tagging for the resources.')
 param code string = 'am v0.2'
-param owner string = 'antti.makkonen@tietokeskus.fi'
-param costCenter string = 'TK palvelutuotanto'
+param owner string = 'antti.makkonen@testi.fi'
+param costCenter string = 'tuotanto'
 @description('Define AVD deployment parameters')
-param resourceGroupPrefix string = 'GITTEST-RG-'
+param resourceGroupPrefix string = 'PWS-GITTEST-RG-'
 
 @description('Define Azure Files deployment parameters')
 param storageaccountkind string = 'FileStorage'
