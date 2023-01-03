@@ -2,7 +2,7 @@ targetScope = 'subscription'
 
 @description('Tagging for the resources.')
 param code string = 'am v0.2'
-param owner string = 'antti.makkonen@testi.fi'
+param owner string = 'a.m@testi.fi'
 param costCenter string = 'tuotanto'
 @description('Define AVD deployment parameters')
 param resourceGroupPrefix string = 'PWS-GITTEST-RG-'
