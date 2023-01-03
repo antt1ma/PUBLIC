@@ -10,7 +10,7 @@ param resourceGroupPrefix string = 'PWS-GITTEST-RG-'
 @description('Define Azure Files deployment parameters')
 param storageaccountkind string = 'FileStorage'
 param storgeaccountglobalRedundancy string = 'Premium_LRS'
-param fileshareFolderName string = 'profilecontainers'
+param fileshareFolderName string = 'files'
 
 @description('Location for resources')
 param location4all string = 'westeurope'
