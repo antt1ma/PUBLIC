@@ -44,7 +44,7 @@
     },
     "fileshareFolderName": {
       "type": "string",
-      "defaultValue": "files"
+      "defaultValue": "file"
     },
     "location4all": {
       "type": "string",
